@@ -6,5 +6,5 @@ import android.widget.Toast;
 public class BluethLibrary {
 
     public static MainActivity mainActivity = new MainActivity();
-    
+
 }

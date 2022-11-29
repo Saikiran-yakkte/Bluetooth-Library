@@ -57,9 +57,9 @@ public class MainActivity extends AppCompatActivity {
     private Set<BluetoothDevice> mPairedDevices;
     private ArrayAdapter<String> mBTArrayAdapter;
 
-    private Handler mHandler; // Our main handler that will receive callback notifications
-    private ConnectedThread mConnectedThread; // bluetooth background worker thread to send and receive data
-    private BluetoothSocket mBTSocket = null; // bi-directional client-to-client data path
+    public Handler mHandler; // Our main handler that will receive callback notifications
+    public ConnectedThread mConnectedThread; // bluetooth background worker thread to send and receive data
+    public BluetoothSocket mBTSocket = null; // bi-directional client-to-client data path
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
